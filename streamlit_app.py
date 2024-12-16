@@ -50,7 +50,9 @@ st.write(
 )
 
 # Get the Snowflake session
-session = get_active_session()
+# session = get_active_session()
+cnx=st.connection("snowflake")
+session=cnx.session()
 
 
 # Collect guest details
