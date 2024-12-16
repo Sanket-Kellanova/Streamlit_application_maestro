@@ -2,4 +2,4 @@ snowflake-snowpark-python
 streamlit
 pytorch
 numpy
-python
+Python == 3.8.*
